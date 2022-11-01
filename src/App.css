@@ -1,41 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 #root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+  display: flex;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+.aside-container {
+  width: 300px;
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.container-page {
+  /* @apply h-screen; */
+  width: calc(100vw - 300px);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+.container-page .header-page {
+  height: 70px;
 }
 
-.card {
-  padding: 2em;
+.container-body {
 }
 
-.read-the-docs {
-  color: #888;
+.main-container {
+  width: -webkit-fill-available;
+}
+
+.red-container {
+  width: 300px;
+  min-height: calc(100vh - 70px);
 }
