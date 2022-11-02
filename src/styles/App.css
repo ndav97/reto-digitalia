@@ -4,10 +4,11 @@
 
 #root {
   display: flex;
+  overflow-x: clip;
 }
 
-.aside-container {
-  width: 300px;
+.placeholder {
+  min-height: 0.4em !important;
 }
 
 .container-page {
@@ -15,18 +16,6 @@
   width: calc(100vw - 300px);
 }
 
-.container-page .header-page {
-  height: 70px;
-}
-
-.container-body {
-}
-
 .main-container {
   width: -webkit-fill-available;
-}
-
-.red-container {
-  width: 300px;
-  min-height: calc(100vh - 70px);
 }

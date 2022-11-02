@@ -1,0 +1,4 @@
+.red-container {
+  width: 300px;
+  min-height: calc(100vh - 70px);
+}

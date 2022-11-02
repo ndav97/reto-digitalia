@@ -1,0 +1,12 @@
+.header-page {
+  height: 70px;
+  width: calc(100vw - 300px);
+}
+
+.search-container {
+  width: -webkit-fill-available;
+}
+
+.user-options-container {
+  width: 300px;
+}
