@@ -1,4 +1,5 @@
 import Placeholder from "react-bootstrap/Placeholder";
+import Logo from "../assets/logo.jpg";
 import "../styles/Aside.css";
 
 function Aside() {
@@ -6,7 +7,7 @@ function Aside() {
     <aside className="min-h-screen bg-gray-200 aside-container">
       <div className="sticky top-8 aside-container-box">
         <div className="flex flex-col my-8 mx-4">
-          <img src="/images/logo.jpg" alt="Logo" className="rounded-xl" />
+          <img src={Logo} alt="Logo" className="rounded-xl" />
           <Placeholder
             animation="glow"
             className="flex flex-col gap-2 items-center my-6"
